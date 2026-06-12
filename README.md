@@ -66,13 +66,13 @@ Photos containing faces are used **solely** to provide AI-powered football-theme
 
 ### Is face data shared with third parties?
 
-Photos are transmitted to our third-party AI processing provider, Replicate, Inc., solely for the purpose of performing the requested transformation. Replicate processes the image, returns the result, and **immediately discards** the original photo. Replicate does not store, retain, or reuse uploaded images. Replicate does not extract or retain any face data, biometric identifiers, or facial features from the images it processes.
+Photos are transmitted to our third-party AI processing provider, OpenRouter, Inc., solely for the purpose of performing the requested transformation. OpenRouter processes the image, returns the result, and **immediately discards** the original photo. OpenRouter does not store, retain, or reuse uploaded images. OpenRouter does not extract or retain any face data, biometric identifiers, or facial features from the images it processes.
 
 No other third party receives or has access to your photos or any face data.
 
 ### How long is face data retained?
 
-Face data is **not retained** — by us or by any third party. Photos exist in Replicate's processing pipeline only for the duration of the transformation (typically seconds) and are automatically discarded upon completion. We do not maintain any copies, backups, or derivatives of your photos on our servers.
+Face data is **not retained** — by us or by any third party. Photos exist in OpenRouter's processing pipeline only for the duration of the transformation (typically seconds) and are automatically discarded upon completion. We do not maintain any copies, backups, or derivatives of your photos on our servers.
 
 ### Summary
 
@@ -81,14 +81,14 @@ Face data is **not retained** — by us or by any third party. Photos exist in R
 | Face data collected? | No. Photos processed as whole images; no face data extracted. |
 | Face data stored? | No. Not retained by us or any third party. |
 | Biometric analysis performed? | No. No facial recognition, face mapping, or identity analysis. |
-| Face data shared? | Photos sent to Replicate for processing only; immediately discarded. |
-| Replicate stores face data? | No. Discarded immediately after transformation. |
+| Face data shared? | Photos sent to OpenRouter for processing only; immediately discarded. |
+| OpenRouter stores face data? | No. Discarded immediately after transformation. |
 | Face data used for profiling? | No. Used solely for visual transformation. |
 
 ## 4. How We Process Your Photos
 
-- **Temporary processing:** Uploaded photos are sent to our third-party AI provider, Replicate, Inc., for AI-powered football-themed photo transformations.
-- **No storage:** Once the transformation is complete, the image is returned to your device and the original photo is automatically discarded by Replicate. We do not store photos on our own servers.
+- **Temporary processing:** Uploaded photos are sent to our third-party AI provider, OpenRouter, Inc., for AI-powered football-themed photo transformations.
+- **No storage:** Once the transformation is complete, the image is returned to your device and the original photo is automatically discarded by OpenRouter. We do not store photos on our own servers.
 - **No biometric analysis:** The app does not extract or analyze facial features for identification or profiling purposes. No biometric identifiers are created, inferred, or retained.
 - **No human review:** All processing is handled by automated AI models. No employee accesses or views your images unless you explicitly contact our support team for help.
 
@@ -96,7 +96,7 @@ Face data is **not retained** — by us or by any third party. Photos exist in R
 
 We use the following third-party services:
 
-- **Replicate, Inc.** — AI-powered photo transformations. Uploaded content is used only for temporary processing and is immediately discarded. Replicate does not store, retain, or reuse uploaded images or any face data derived from them.
+- **OpenRouter, Inc.** — AI-powered photo transformations. Uploaded content is used only for temporary processing and is immediately discarded. OpenRouter does not store, retain, or reuse uploaded images or any face data derived from them.
 - **RevenueCat** — Subscription and purchase management. Collects device identifiers and purchase history to manage entitlements.
 - **Firebase Analytics** — Anonymous usage analytics. Collects device identifiers and product interaction data.
 - **Firebase Crashlytics** — Crash reporting and diagnostics. Collects crash data and diagnostic information.
@@ -108,7 +108,7 @@ These services process data only to the extent required for their core functions
 
 ## 6. Data Retention
 
-- **Photos:** Not stored. Discarded immediately after transformation by Replicate.
+- **Photos:** Not stored. Discarded immediately after transformation by OpenRouter.
 - **Face data:** Not retained. No face data is extracted, stored, or retained at any point.
 - **Analytics and diagnostics:** Retained in anonymous, aggregated form by third-party providers according to their own retention policies.
 - **Purchase information:** Managed by Apple and RevenueCat under their respective privacy and retention policies.
